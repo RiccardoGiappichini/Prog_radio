@@ -22,6 +22,7 @@ public class Utente {
     static String Preferenza3;
     
     public static void main(String[] args) {
+        System.out.println("");
         int porta = 2000;
         InetAddress ip = null;
         DatagramSocket dSocket = null;
